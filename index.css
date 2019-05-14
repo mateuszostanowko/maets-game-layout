@@ -1,3 +1,7 @@
+.container-fluid{
+    padding: 0;
+}
+
 .jumbotron{
     background-color: rgb(0, 15, 27);
 }
@@ -18,4 +22,17 @@ header{
     color: #fff;
     margin-top: 20px;
     font-size-adjust: 0.58;
+}
+
+.game-logo{
+   margin-top: -150px;
+}
+
+.game-bg{
+    /*width: 100vw;*/
+    height: 30vh;
+    background-color: #fff;
+    background-image: url('default-game-bg.png');
+    background-repeat: no-repeat;
+    background-size: 100vw 30vh;
 }
